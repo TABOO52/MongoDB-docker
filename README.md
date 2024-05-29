@@ -13,31 +13,31 @@
 
 version: '2.2'
 
-services:
-
-  frontend:
+    services:
+    
+      frontend:
   
-    image: mongo:4.0.4
-    
-    restart: always
-    
-    ports:
-    
-      - "27017:27017"
-    
-    container_name: monguito
-    
-    environment:
-    
-      - MONGODB_USER='user'
-     
-      - MONGODB_PASS='pass'
-    
-    volumes:
-    
-      - monguitodata:/data/db
-      
-      - monguitologs:/var/log/mongodb/
+        image: mongo:4.0.4
+        
+        restart: always
+        
+        ports:
+        
+          - "27017:27017"
+        
+        container_name: monguito
+        
+        environment:
+        
+          - MONGODB_USER='user'
+         
+          - MONGODB_PASS='pass'
+        
+        volumes:
+        
+          - monguitodata:/data/db
+          
+          - monguitologs:/var/log/mongodb/
 
 volumes:
 
