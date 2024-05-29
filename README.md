@@ -39,11 +39,11 @@ version: '2.2'
           
           - monguitologs:/var/log/mongodb/
 
-volumes:
-
-  monguitodata:
-  
-  monguitologs:
+    volumes:
+    
+      monguitodata:
+      
+      monguitologs:
 
 
 ## Paso 3
@@ -54,11 +54,11 @@ volumes:
 > cat > mongo.sh
 *(copiamos y pegamos el codigo y al final guardamos con "ctrl+d")*
 
-mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
-cd
-sudo docker-compose up -d
-echo "Monguito está iniciandose ......."
-sudo docker exec -it monguito bash
+    mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
+    cd
+    sudo docker-compose up -d
+    echo "Monguito está iniciandose ......."
+    sudo docker exec -it monguito bash
 
 ## Paso 5
 ### Asignar permisos de ejecución y ejecutar mongo.sh
