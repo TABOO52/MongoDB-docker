@@ -52,6 +52,7 @@ version: '2.2'
 ## Paso 4
 ### Cargar comandos al archivo creado:
 > cat > mongo.sh
+
 *(copiamos y pegamos el codigo y al final guardamos con "ctrl+d")*
 
     mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
