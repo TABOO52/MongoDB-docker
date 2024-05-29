@@ -70,7 +70,7 @@
 Finalizamos con "exit".
 
 ---------------------------------------------------------------------------------------------------------------------------
-Pasos para la carga al repo de dockerhub
+**Pasos para la carga al repo de dockerhub**
 
 ## Paso 1
 ### Iniciar sesion
@@ -113,4 +113,14 @@ Nos dirigiremos a [docker](https://hub.docker.com)
 ## Paso 5 
  ### Cargar imagen
  docker push *usuario_docker*/mongo_*nombre_de_directorio*
- 
+
+ ---------------------------------------------------------------------------------------------------------------------------
+ ## Elaborado por:
+ ### Gustavo Pardo Bermudez: TABOO52
+ ### GITHUB
+     https://github.com/TABOO52
+ ### LINKEDIN
+     www.linkedin.com/in/gustavo-pardo52
+
+ ### AGRADECIMIENTO
+ ![Logo de henry](https://assets.soyhenry.com/logoOG.png)
