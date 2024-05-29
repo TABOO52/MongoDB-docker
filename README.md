@@ -3,6 +3,9 @@
 
 **Todos los comandos se realizan en el servidor de ubuntu mediante putty.**
 ## Paso 1 
+### Crear documento de docker-compose.
+> touch docker-compose.yml
+> cat > docker-compose.yml
 ## Paso 2 
 ## Paso 3
 ## Paso 4
