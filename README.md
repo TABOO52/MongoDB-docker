@@ -11,7 +11,7 @@
 ### Crear documento de docker-compose.yml:
 *(copiamos y pegamos el codigo y al final guardamos con "ctrl+d")*
 
-version: '2.2'
+    version: '2.2'
 
     services:
     
