@@ -64,6 +64,7 @@
 ## Paso 5
 ### Asignar permisos de ejecución y ejecutar mongo.sh
 > chmod u+x mongo.sh
+
 > ./mongo.sh 
 
 Finalizamos con "exit".
