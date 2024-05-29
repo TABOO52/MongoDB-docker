@@ -12,22 +12,37 @@
 *(copiamos y pegamos el codigo y al final guardamos con "ctrl+d")*
 
 version: '2.2'
+
 services:
+
   frontend:
+  
     image: mongo:4.0.4
+    
     restart: always
+    
     ports:
+    
       - "27017:27017"
+    
     container_name: monguito
+    
     environment:
+    
       - MONGODB_USER='user'
+     
       - MONGODB_PASS='pass'
+    
     volumes:
+    
       - monguitodata:/data/db
+      
       - monguitologs:/var/log/mongodb/
 
 volumes:
+
   monguitodata:
+  
   monguitologs:
 
 
